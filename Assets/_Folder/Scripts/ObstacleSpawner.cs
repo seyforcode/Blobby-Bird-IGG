@@ -14,19 +14,17 @@ public class ObstacleSpawner : MonoBehaviour
 
     private float timer = 0;
 
-    private void Start()
-    {
-        SpawnObstacle();
-    }
 
     private void Update()
     {
+        if(!UIController.gameStarted) return;
+        
         if (timer > maxTime)
         {
             SpawnObstacle();
             timer = 0;
         }
-        
+
         timer += Time.deltaTime;
     }
 

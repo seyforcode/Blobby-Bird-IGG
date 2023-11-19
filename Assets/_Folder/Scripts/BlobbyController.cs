@@ -6,15 +6,16 @@ using UnityEngine.Events;
 
 public class BlobbyController : MonoBehaviour
 {
-
     public static BlobbyController instance;
-    
-    private Rigidbody rb;
+    public Rigidbody rb;
 
     [SerializeField] private float _speed = 1f;
     [SerializeField] private float rotationSpeed = 10f;
 
     public UnityEvent onDeath;
+    public UnityEvent<int> onScore;
+
+    [SerializeField] private AudioClip  flapSfx;
     private void Awake()
     {
         if (instance == null)
@@ -30,7 +31,7 @@ public class BlobbyController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.W))
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.W) )
         {
             Flap();
         }
@@ -44,6 +45,7 @@ public class BlobbyController : MonoBehaviour
     private void Flap()
     {
         rb.velocity = Vector3.up *_speed  ;
+        AudioController.instance.PlaySFX(flapSfx);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -51,6 +53,15 @@ public class BlobbyController : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacle"))
         {
             onDeath?.Invoke();
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Score"))
+        {
+            onScore?.Invoke(1);
+            Debug.Log("Score Added");
         }
     }
 }
