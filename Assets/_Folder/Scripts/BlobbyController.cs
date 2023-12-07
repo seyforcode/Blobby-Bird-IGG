@@ -12,10 +12,16 @@ public class BlobbyController : MonoBehaviour
     [SerializeField] private float _speed = 1f;
     [SerializeField] private float rotationSpeed = 10f;
 
-    public UnityEvent onDeath;
-    public UnityEvent<int> onScore;
+    [HideInInspector] public UnityEvent onDeath;
+    [HideInInspector] public UnityEvent<int> onScore;
 
+    [Header("VFX")]
+    [SerializeField] private GameObject deathVFX;
+    [SerializeField] private GameObject jumpVFX;
+    
+    [Header("SFX")]
     [SerializeField] private AudioClip  flapSfx;
+    
     private void Awake()
     {
         if (instance == null)
@@ -31,7 +37,7 @@ public class BlobbyController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.W) )
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.W) && UIController.gameStarted )
         {
             Flap();
         }
@@ -45,7 +51,12 @@ public class BlobbyController : MonoBehaviour
     private void Flap()
     {
         rb.velocity = Vector3.up *_speed  ;
-        AudioController.instance.PlaySFX(flapSfx);
+        if (UIController.gameStarted)
+        {
+            var jumpFx = Instantiate(jumpVFX,new Vector3(transform.position.x,transform.position.y - 1f,transform.position.z),Quaternion.identity);
+            Destroy(jumpFx,.5f);
+            AudioController.instance.PlaySFX(flapSfx);
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -53,6 +64,9 @@ public class BlobbyController : MonoBehaviour
         if (collision.gameObject.CompareTag("Obstacle"))
         {
             onDeath?.Invoke();
+            var deathVfx = Instantiate(deathVFX,transform.position, Quaternion.identity);
+            Destroy(deathVfx,1f);
+            Destroy(gameObject);
         }
     }
 

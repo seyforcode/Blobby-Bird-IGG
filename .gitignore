@@ -9,6 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/[Vv]FX_Klaus/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -70,3 +71,254 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/VFX_Klaus.meta
+Assets/VFX_Klaus/Materials.meta
+Assets/VFX_Klaus/Materials/Mat_fx_HCFX_set_add.mat
+Assets/VFX_Klaus/Materials/Mat_fx_HCFX_set_add.mat.meta
+Assets/VFX_Klaus/Materials/Mat_fx_HCFX_set_apb.mat
+Assets/VFX_Klaus/Materials/Mat_fx_HCFX_set_apb.mat.meta
+Assets/VFX_Klaus/Materials/VFX_lab.mat
+Assets/VFX_Klaus/Materials/VFX_lab.mat.meta
+Assets/VFX_Klaus/Materials/VFX_lab_HyperCasualFX.mat
+Assets/VFX_Klaus/Materials/VFX_lab_HyperCasualFX.mat.meta
+Assets/VFX_Klaus/Materials/VFX_lab_HyperCasualFX_Player.mat
+Assets/VFX_Klaus/Materials/VFX_lab_HyperCasualFX_Player.mat.meta
+Assets/VFX_Klaus/Meshes.meta
+Assets/VFX_Klaus/Meshes/fbx_fx_circle_01.FBX
+Assets/VFX_Klaus/Meshes/fbx_fx_circle_01.FBX.meta
+Assets/VFX_Klaus/Meshes/fbx_fx_cylinder_03.FBX
+Assets/VFX_Klaus/Meshes/fbx_fx_cylinder_03.FBX.meta
+Assets/VFX_Klaus/Meshes/fbx_fx_half_sphere.FBX
+Assets/VFX_Klaus/Meshes/fbx_fx_half_sphere.FBX.meta
+Assets/VFX_Klaus/Meshes/Fbx_fx_Round_01.FBX
+Assets/VFX_Klaus/Meshes/Fbx_fx_Round_01.FBX.meta
+Assets/VFX_Klaus/Meshes/Fbx_fx_Round_02.FBX
+Assets/VFX_Klaus/Meshes/Fbx_fx_Round_02.FBX.meta
+Assets/VFX_Klaus/Meshes/Fbx_Skysphere.FBX
+Assets/VFX_Klaus/Meshes/Fbx_Skysphere.FBX.meta
+Assets/VFX_Klaus/Prefabs.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Buff_Down.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Buff_Down.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Buff_Up.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Buff_Up.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Candy.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Candy.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_01_Step1.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_01_Step1.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_01_Step1_End.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_01_Step1_End.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_01_Step2.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_01_Step2.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_01_Step2_End.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_01_Step2_End.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_01_Step3.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_01_Step3.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_01_Step3_End.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_01_Step3_End.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_02_Step1.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_02_Step1.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_02_Step2.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_02_Step2.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_02_Step3.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Charging_02_Step3.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Conffeti.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Conffeti.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Conffeti_Air.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Conffeti_Air.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_03.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_03.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_04.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_04.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Dash_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Dash_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Dash_01_Air.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Dash_01_Air.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_FloorHit_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_FloorHit_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_FloorHit_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_FloorHit_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_FloorHit_03.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_FloorHit_03.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Jump_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Jump_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Jump_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Jump_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Jump_03.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Jump_03.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Left_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Left_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Left_01_Looping.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Left_01_Looping.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Left_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Left_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Left_02_Looping.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Left_02_Looping.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Right_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Right_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Right_01_Looping.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Right_01_Looping.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Right_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Right_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Right_02_Looping.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Dust_Storm_Right_02_Looping.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_ElementOrb_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_ElementOrb_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_ElementOrb_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_ElementOrb_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_ElementOrb_03.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_ElementOrb_03.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_ElementOrb_04.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_ElementOrb_04.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_03.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_03.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_04.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_04.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_05.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_05.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_06.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_06.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_07.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_07.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_08.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Energy_08.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Explosion_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Explosion_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Explosion_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Explosion_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Explosion_02_Air.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Explosion_02_Air.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Explosion_03.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Explosion_03.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Feathers.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Feathers.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Fire_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Fire_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Fire_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Fire_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Flash_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Flash_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Flash_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Flash_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Flash_03.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Flash_03.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Flash_04.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Flash_04.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Flash_05.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Flash_05.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Heart.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Heart.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Heart_Air.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Heart_Air.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_03.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_03.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_04.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_04.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_05.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_05.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_06.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_06.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_07.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_07.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_08.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_08.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_09.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_09.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_10.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_10.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_11.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Hit_11.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Leaves.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Leaves.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Leaves_Air.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Leaves_Air.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_MagicCircle_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_MagicCircle_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_MagicCircle_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_MagicCircle_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_MagicCircle_03.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_MagicCircle_03.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_MagicCircle_04.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_MagicCircle_04.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_01_Get.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_01_Get.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_02_Get.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_02_Get.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_03.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_03.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_03_Get.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_03_Get.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_04.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_04.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_04_Get.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Marble_04_Get.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Poison_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Poison_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Poison_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Poison_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Portal_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Portal_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Portal_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Portal_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_03.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_03.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_04.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_04.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_05.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_05.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_06.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_06.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_07.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Shine_07.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Splash_01.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Splash_01.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Splash_02.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Splash_02.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Splash_03.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Splash_03.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Stun.prefab
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/HCFX_Stun.prefab.meta
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/ReadMe_Hyper Casual FX.txt
+Assets/VFX_Klaus/Prefabs/Hyper Casual FX/ReadMe_Hyper Casual FX.txt.meta
+Assets/VFX_Klaus/Shaders.meta
+Assets/VFX_Klaus/Shaders/Explosion_lab_SG.shadergraph
+Assets/VFX_Klaus/Shaders/Explosion_lab_SG.shadergraph.meta
+Assets/VFX_Klaus/Shaders/HCFX_Particle_add.shadergraph
+Assets/VFX_Klaus/Shaders/HCFX_Particle_add.shadergraph.meta
+Assets/VFX_Klaus/Shaders/HCFX_Particle_apb.shadergraph
+Assets/VFX_Klaus/Shaders/HCFX_Particle_apb.shadergraph.meta
+Assets/VFX_Klaus/Shaders/VFX_lab_SG.shadergraph
+Assets/VFX_Klaus/Shaders/VFX_lab_SG.shadergraph.meta
+Assets/VFX_Klaus/Textures.meta
+Assets/VFX_Klaus/Textures/Tex_fx_HCFX_set_01.tga
+Assets/VFX_Klaus/Textures/Tex_fx_HCFX_set_01.tga.meta
+Assets/VFX_Klaus/Timeline.meta
+Assets/VFX_Klaus/Timeline/Hyper Casual FX.playable
+Assets/VFX_Klaus/Timeline/Hyper Casual FX.playable.meta
+Assets/VFX_Klaus/Timeline/Hyper Casual FX.prefab
+Assets/VFX_Klaus/Timeline/Hyper Casual FX.prefab.meta
+Assets/VFX_Klaus/VFX_Lab.meta
+Assets/VFX_Klaus/VFX_Lab/PostProcess Profile.asset
+Assets/VFX_Klaus/VFX_Lab/PostProcess Profile.asset.meta
+Assets/VFX_Klaus/VFX_Lab/VFX_Lab_HyperCasualFX.unity
+Assets/VFX_Klaus/VFX_Lab/VFX_Lab_HyperCasualFX.unity.meta
