@@ -27,11 +27,17 @@ public class UIController : MonoBehaviour
 
     private void Start()
     {
+        Application.targetFrameRate = 60;
         _Score = 0;
         _blobbyController = BlobbyController.instance;
         
         _blobbyController.onDeath.AddListener(GameOver);
         _blobbyController.onScore.AddListener(UpdateScore);
+        
+        AdsManager.instance.RequestBannerAd();
+        AdsManager.instance.onInterstitialAdClosed.AddListener(ReloadScene);
+        
+        AdsManager.instance.onRewardSuccesfull.AddListener(Reward);
     }
 
 
@@ -67,13 +73,29 @@ public class UIController : MonoBehaviour
             PlayerPrefs.SetInt("HighScore",_Score);
         }
         gameOverHighScore.text = "HIGH SCORE: " + PlayerPrefs.GetInt("HighScore", 0);
-        
-        Time.timeScale = 0;
     }
     
     public void RestartGame()
     {
-        Time.timeScale = 1f;
+        AdsManager.instance.ShowInterstitialAd();
+    }
+    
+    private void ReloadScene()
+    {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    public void WatchRewarded()
+    {
+        AdsManager.instance.ShowRewardedAd();
+    }
+
+    public void Reward()
+    {
+        gameStarted = true;
+        gameoverPanel.SetActive(false);
+        scoreText.gameObject.SetActive(true);
+        _blobbyController.OpenBird();
+    }
+
 }

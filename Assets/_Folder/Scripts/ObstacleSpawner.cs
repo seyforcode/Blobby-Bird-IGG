@@ -13,12 +13,12 @@ public class ObstacleSpawner : MonoBehaviour
     [SerializeField] private float spawnYRange = 1f;
 
     private float timer = 0;
+    
+    private BlobbyController _blobbyController;
 
 
     private void Update()
     {
-        if(!UIController.gameStarted) return;
-        
         if (timer > maxTime)
         {
             SpawnObstacle();
@@ -30,6 +30,7 @@ public class ObstacleSpawner : MonoBehaviour
 
     private void SpawnObstacle()
     {
+        if(!UIController.gameStarted) return;
         GameObject obstacle = Instantiate(obstaclePrefab, transform.position, Quaternion.identity);
         obstacle.transform.position += Vector3.up * Random.Range(-spawnYRange, spawnYRange);
         Destroy(obstacle,6f);
